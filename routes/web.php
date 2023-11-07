@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
+});
+
+Route::get('/reviews', function () {
+    return view('game-reviews');
+});
+
+Route::get('/discussion', function () {
+    return view('discussion-forum');
 });
