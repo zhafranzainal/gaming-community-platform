@@ -21,6 +21,6 @@ Route::get('/reviews', function () {
     return view('game-reviews');
 });
 
-Route::get('/discussion', function () {
+Route::get('/discussions', function () {
     return view('discussion-forum');
 });
